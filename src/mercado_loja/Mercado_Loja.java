@@ -14,7 +14,7 @@ public class Mercado_Loja {
         int op=0;
         do{
             System.out.println("---------------------------------------");
-            System.out.println("---------BEM VINDO AO MERCADO----------");
+            System.out.println("--------BEM VINDO AO MERCADO CM---------");
             System.out.println("---------------------------------------");
             System.out.println("\t1 - Cadastrar produto\n\t2 - Listar Produto");
             System.out.println("\t3 - Comprar Produtos\n\t4 - Ver Carrinho");

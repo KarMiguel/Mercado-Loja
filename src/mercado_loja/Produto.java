@@ -103,6 +103,13 @@ public class Produto {
         carrinho.clear();
         System.out.println("\nObrigado pela preferencia!");
     }
+    
+    @Override
+     public String toString(){
+        
+        return "id:"+this.getId()+" || Nome:"+this.getNome()+" || Preço:"+this.getPreço();
+    }
+     
      public int getId() {
         return id;
     }
@@ -120,10 +127,7 @@ public class Produto {
     public void setPreço(Double preço) {
         this.preço = preço;
     }
-    public String toString(){
-        
-        return "id:"+this.getId()+" || Nome:"+this.getNome()+" || Preço:"+this.getPreço();
-    }
+   
 }
 
 
